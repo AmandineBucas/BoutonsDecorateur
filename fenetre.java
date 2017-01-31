@@ -20,11 +20,14 @@ public class fenetre extends JFrame{
 		// initialisation d'un bouton "Invisible"
 	    JButton hide = new invisible(new JButton("Invisible"));
 		
-		// initialisation d'un bouton "Invisible"
+		// initialisation d'un bouton "Alerte"
 	    JButton alert = new alerte(new JButton("Alerte"));
 		
-		// initialisation d'un bouton Majuscule
+		// initialisation d'un bouton "Majuscule"
 	    JButton upcase = new majuscule(new JButton("Majuscule"));
+		
+		// initialisation d'un bouton "Couleur"
+	    JButton color = new couleur(new JButton("Couleur"));
 	    
 		// action avec la classe "invisible" et la classe "alerte"
 	    JButton hideAndAlert = new invisible(new alerte(new JButton("Invisible et Alerte"))); 
@@ -45,9 +48,10 @@ public class fenetre extends JFrame{
 	    panel.add(hide);
 	    panel.add(alert);
 	    panel.add(upcase);
+	    panel.add(color);
 	    panel.add(hideAndAlert);
 	    panel.add(alertAndUpcase);
-		panel.add(hideAndUpcase);
+	    panel.add(hideAndUpcase);
 	    
 		// affiche les composants du panel 
 	    this.setContentPane(panel);  
