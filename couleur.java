@@ -4,6 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JOptionPane;
+import java.awt.Color;
 
 public class couleur extends JButton {
 	
@@ -21,7 +22,7 @@ public class couleur extends JButton {
 		
 			public void actionPerformed(ActionEvent e) {
 				// change la couleur du premier plan du bouton
-				setForeground(Red);
+				setForeground(Color.red);
 			}
 			
 		});
