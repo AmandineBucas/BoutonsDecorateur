@@ -31,17 +31,14 @@ public class fenetre extends JFrame{
 	    
 		// action avec la classe "invisible" et la classe "alerte"
 	    JButton hideAndAlert = new invisible(new alerte(new JButton("Invisible et Alerte"))); 
-		JButton hideAndAlert = new invisible(alert); 
 	    hideAndAlert.setText("Invisible et Alerte");
 		
 		// action avec la classe "alerte" et la classe "majuscule"
-		JButton alertAndUpcase = new alerte(new majuscule(new JButton("Alerte et Majuscule"))); 
-		JButton alertAndUpcase = new majuscule(alert); 
+	    JButton alertAndUpcase = new alerte(new majuscule(new JButton("Alerte et Majuscule"))); 
 	    alertAndUpcase.setText("Alerte et Majuscule");
 				
 		// action avec la classe "invisible" et la classe "majuscule"
-		JButton hideAndUpcase = new invisible(new majuscule(new JButton("Invisible et Majuscule"))); 
-		JButton hideAndUpcase = new invisible(upcase); 
+	    JButton hideAndUpcase = new invisible(new majuscule(new JButton("Invisible et Majuscule"))); 
 	    hideAndUpcase.setText("Invisible et Majuscule");
 	    
 		// ajout des composants du panel
