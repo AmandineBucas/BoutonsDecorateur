@@ -4,3 +4,4 @@ Implémentation de 4 décorateurs pour JButton :
 <p>"invisible" : permet de rendre invisible le bouton (celui-ci est toujours cliquable)</p>
 <p>"majuscule" : permet de mettre en majuscule le contenu du bouton</p>
 <p>"couleur" : permet de changer la couleur au premier plan du bouton</p>
+<p>boutons utilisant les actions de deux classes</p>
