@@ -40,6 +40,10 @@ public class fenetre extends JFrame{
 		// action avec la classe "invisible" et la classe "majuscule"
 	    JButton hideAndUpcase = new invisible(new majuscule(new JButton("Invisible et Majuscule"))); 
 	    hideAndUpcase.setText("Invisible et Majuscule");
+		
+		// action avec la classe "majuscule" et la classe "couleur"
+	    JButton upcaseAndColor = new majuscule(new couleur(new JButton("Majuscule et Couleur")));
+	    upcaseAndColor.setText("Majuscule et Couleur")));
 	    
 		// ajout des composants du panel
 	    panel.add(hide);
@@ -49,6 +53,7 @@ public class fenetre extends JFrame{
 	    panel.add(hideAndAlert);
 	    panel.add(alertAndUpcase);
 	    panel.add(hideAndUpcase);
+	    panel.add(upcaseAndColor);
 	    
 		// affiche les composants du panel 
 	    this.setContentPane(panel);  
